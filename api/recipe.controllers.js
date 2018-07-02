@@ -43,6 +43,19 @@ exports.killall = function(req, res) {
 exports.import = function(req, res) {
     Recipe.create(
         {
+          "name": "burnttoast0001",
+          "title": "Burnt Toast",
+          "date": "2018-07-02",
+          "description": "The perfect food for when you've completely given up and no longer care what you put in your body.",
+          "image": "burnt_toast.jpg",
+          "ingredients": [
+            "sliced bread", "knife", "apathy"
+          ],
+          "preparation": [
+            {"step": "Place bread in toaster."},  {"step": "Toast."}, {"step": "Ignore until toast is burnt.  Serves: none"}
+          ]
+        },
+        {
             "name": "recipe1309",
             "title": "Lasagna",
             "date": "2013-09-01",
